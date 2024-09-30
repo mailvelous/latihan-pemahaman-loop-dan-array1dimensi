@@ -18,6 +18,10 @@ func main() {
 	caseF()
 	fmt.Println()
 	caseG()
+	fmt.Println()
+	caseH()
+	fmt.Println()
+	caseI()
 
 }
 
@@ -141,10 +145,31 @@ func caseG() {
         }
     }
 	fmt.Println("After sorting:", numbers, counter)
+}
 
+func caseH() {
+	var char = [10]string{"p", "1", "2", "3", "4", "5", "6", "7", "p", "9"}
 
+	for _, character := range char {
+		if character == "p" {
+			fmt.Print("True")
+		} else {
+			fmt.Print("False")
+		}
+	}
+}
 
+func caseI() {
+	var char = [10]string{"p", "1", "2", "3", "4", "5", "6", "7", "p", "9"}
+	counter := 0
 
+	for _, character := range char {
+		if character == "p" {
+			counter++
+		} else {
 
-	
+		}
+	}
+	fmt.Printf("%d", counter)
+
 }

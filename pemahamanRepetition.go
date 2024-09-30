@@ -103,9 +103,7 @@ func caseF() {
 }
 
 
-/*************  ✨ Codeium Command ⭐  *************/
-// caseG prints the numbers from 1 to 10 separated by spaces.
-/******  b01d7558-dddf-4757-b05e-632d3ed88ed2  *******/
+
 func caseG() {
 	j := 1
 	for i := 1; i <= 5; i++ {

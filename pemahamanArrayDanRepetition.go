@@ -130,8 +130,10 @@ func caseF() {
 }
 
 func caseG() {
-	var numbers = [10]int{1, 2, 3, 4, 5, 6, 7, 8, 19, 10}
-	counter := 0
+    var numbers = [10]int{1, 2, 3, 4, 5, 6, 7, 8, 19, 10}
+    counter := 0
+
+    
 
     n := len(numbers)
     for i := 0; i < n-1; i++ {
@@ -140,7 +142,7 @@ func caseG() {
             if numbers[j] > numbers[j+1] {
                 // Swap arr[j] and arr[j+1]
                 numbers[j] = numbers[j+1] 
-				numbers[j+1] = numbers[j]
+		numbers[j+1] = numbers[j]
             }
         }
     }
